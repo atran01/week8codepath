@@ -26,14 +26,14 @@ Vulnerability #2: __________________
 
 Vulnerability #1: Username Enumeration
 
-<img src="https://imgur.com/kzUvlAb" width="800">
+<img src="https://i.imgur.com/kzUvlAb.gif" width="800">
 
   Steps:
-    -only in the green site
-    -type in `jmonroe99` into the username input box with a random password
-    -look at the pop up alert text
-    -if the input field contains `jmonroe99` the alert text is **bold**
-    -if the input field contains any other username; the alert text is not bold
+    * only in the green site
+    * type in `jmonroe99` into the username input box with a random password
+    * look at the pop up alert text
+    * if the input field contains `jmonroe99` the alert text is **bold**
+    * if the input field contains any other username; the alert text is not bold
     
   Notes:
     -different class is called when there is a incorrect username input
